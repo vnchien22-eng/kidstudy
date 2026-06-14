@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Nunito', 'Be Vietnam Pro', sans-serif;
+    background-color: #f0f9ff;
+  }
+}
+
+.kids-shadow {
+  box-shadow: 0 8px 0px 0px rgba(0, 0, 0, 0.05), 0 16px 24px -8px rgba(0, 0, 0, 0.05);
+}
+
+.kids-border {
+  border-bottom-width: 4px;
+}
+
+@keyframes custom-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-kids-bounce {
+  animation: custom-bounce 2s infinite ease-in-out;
+}
+
+@keyframes gentle-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+}
+
+.animate-gentle {
+  animation: gentle-pulse 3s infinite ease-in-out;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+.animate-shake {
+  animation: shake 0.2s ease-in-out 2;
+}

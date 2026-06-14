@@ -1,0 +1,6 @@
+{
+  "name": "KidStudy",
+  "description": "Hệ thống ôn luyện học tập thông minh dành cho học sinh tiểu học với các trò chơi tương tác và Trợ lý đánh giá viết tay AI thông qua Gemini.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
